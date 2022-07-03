@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+html body{
+    height: 100vh;
+    width: 100vw;
+    background-color: beige;
+}
+body{  
+    background: url(imagens/pexels-sharon-mccutcheon-5634704.jpg) no-repeat top center;
+    background-size: cover;
+}
+section.hero{
+    background-color: aqua;
+}
+article.message-header{
+    background-color: rosybrown;
+    color: aqua;
+}
+article.message{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+   width: 300px;
+   height: 300px;
+
+}
+button:hover{
+    background-color: aqua;
+}
+
+button.button{
+   
+    position: relative;
+    top: 100px;
+    left: 100px;
+  
+    border: 0px;
+    
+}
