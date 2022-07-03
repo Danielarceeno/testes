@@ -32,6 +32,10 @@ article.message{
    height: 300px;
 
 }
+div.message-header{
+    
+    background-color: rgb(197, 39, 218);
+}
 button:hover{
     background-color: aqua;
 }
@@ -44,4 +48,4 @@ button.button{
   
     border: 0px;
     
-}
+} 
