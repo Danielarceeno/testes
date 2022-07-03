@@ -12,7 +12,7 @@ html body{
     background-color: beige;
 }
 body{  
-    background: url(imagens/pexels-sharon-mccutcheon-5634704.jpg) no-repeat top center;
+    background-color: #FFF2D7;
     background-size: cover;
 }
 section.hero{
@@ -34,18 +34,25 @@ article.message{
 }
 div.message-header{
     
-    background-color: rgb(197, 39, 218);
+    background-color: #F852C7;
 }
 button:hover{
-    background-color: aqua;
+    transition: 2s;
+    background-color: #5EF7D4;
+    
 }
 
 button.button{
    
     position: relative;
-    top: 100px;
-    left: 100px;
-  
-    border: 0px;
+    top: 30px;
+    left: 25px;
+    border: 0.5px;
     
 } 
+ul{
+    text-align: justify;
+}
+a#linha{
+    text-decoration: none;
+}
